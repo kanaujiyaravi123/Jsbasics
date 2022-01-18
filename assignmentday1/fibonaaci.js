@@ -1,5 +1,6 @@
 // without recursion
 
+
 function fib(num) 
 {
     let f= [0,1];
@@ -15,4 +16,7 @@ let x=5;
 let ans=fib(x);
 for(let i of ans)
 console.log(i);
+
+
+
 
