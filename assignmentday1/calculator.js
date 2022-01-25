@@ -1,30 +1,20 @@
-function cal(oper,num1,num2)
+function cal(oper,...args) 
 {
-    switch(oper)
-    {
-        case 'add':
-            let ar=num1+num2;
-            console.log(`result is ${ar}`)
-            break
-        case 'sub':
-            let sr=num1-num2;
-            console.log(`result is ${sr}`)
-            break;
-        case 'mul':
-            let mr=num1*num2;
-            console.log(`result is ${mr}`)
-            break;
-        case 'div':
-            let dr=num1/num2;
-            console.log(`result is ${dr}`) 
-            break;
-        default:
-            console.log('wrong choise')
-            break;           
-
-    }
+    
+        switch (oper) {
+            case 'add':
+                return args.reduce((acc,curr)=>curr+acc,0);
+            case 'sub':
+                return args.reduce((acc,curr)=>acc-curr,0);  
+            case 'mul':
+                return args.reduce((acc,curr)=>acc*curr,1);
+            case 'div':
+                    return args.reduce((acc,curr)=>acc/curr);
+            default:
+                console.log('wrong choise')
+        }
 }
-cal('add',3,2)
-cal('sub',3,2)
-cal('mul',3,2)
-cal('div',3,2)
+console.log (cal('add', 3, 2, 4, 5))
+console.log(cal('sub', 3, 2,6))
+console.log(cal('mul', 3, 2,4))
+console.log(cal('div', 3, 2))
