@@ -26,3 +26,6 @@ function Deduct(paisa) {
     }
 }
 getUserdetail("1245").then((d1) => Acc_details(d1).then((d2) => Deduct(d2))).catch(() => console.log("error"));
+
+
+
