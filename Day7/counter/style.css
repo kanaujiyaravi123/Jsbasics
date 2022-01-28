@@ -1,0 +1,48 @@
+
+/* #counter{
+  text-align: center;
+} */
+.cnt{
+  text-align: center;
+}
+#data{
+  text-align: center;
+  color: blue;
+}
+#button{
+  font-size: 24px;
+  color: aqua;
+
+}
+#count{
+  text-align: center;
+}
+#body{
+  text-align: center;
+  background-color: lightgreen;
+}
+#start{
+  height: 30px;
+  width: 65px;
+   background-color: rgb(129, 40, 218);
+}
+#end{
+  background-color: blueviolet;
+  height: 30px;
+  width: 65px;
+}
+#reset{
+  background-color: blueviolet;
+  height: 30px;
+  width: 65px;
+}
+#input{
+  background-color:lightblue;
+  height: 35px;
+  width: 125px;
+}
+#submit{
+  background-color:blueviolet;
+  height: 40px;
+  width: 95px;
+}
