@@ -1,0 +1,26 @@
+table, th, td {
+    border:1px solid black;
+    background-color:aquamarine;
+  }  
+  #name{
+    background-color: rgb(160, 116, 95);
+     text-align: center;
+     color:cornsilk;
+     border-color: darkorange;
+  }
+  #add{
+    background-color: rgba(60, 79, 47, 0.815);
+    height: 100px;
+    width: 200px;
+  }
+  #bd{
+    background-color: rgb(255, 220, 236);
+  }
+  #nav {
+    text-align: center;
+    background-color:lime;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    height: 40px;
+    font-size: 25px;
+}

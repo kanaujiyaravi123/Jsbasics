@@ -1,0 +1,30 @@
+body{
+    background-color: lightgreen;
+}
+.edtbtn{
+    padding: 10px;
+}
+#nav {
+    text-align: center;
+    background-color:lime;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    height: 40px;
+    font-size: 25px;
+}
+#todo{
+    text-align: center;
+    border: 2px solid black;
+    width: 400px;
+    margin-left: 410px;
+    margin-top: 10px;
+}
+#btn{
+    margin-left: 5px;
+}
+#input-text{
+    margin-bottom: 10px;
+}
+#container{
+    margin-bottom: 10px;
+}
