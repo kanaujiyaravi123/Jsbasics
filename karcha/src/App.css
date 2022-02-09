@@ -1,0 +1,30 @@
+
+table,th,td{ 
+  border: 1px solid black;
+  margin-top: 10px;
+  text-align: center;
+  flex-wrap: wrap;
+  
+
+}
+.main {
+  display: flex;
+  justify-content: space-around;
+  
+}
+.header{
+  
+  text-align: center;
+  color: rgb(255, 60, 0);
+}
+
+.chart{
+  height: 180px;
+  width: 180px;
+
+
+}
+.table{
+  background: rgb(0, 102, 255);
+  
+}
