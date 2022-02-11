@@ -9,8 +9,12 @@
    margin-left: 40px;
     width: 180px;
     height:60px;
+    padding: 40px;
     border: 1px solid blueviolet;
+    display: flex;
 }
 .head{
-    margin-left: 35px;
+    display: flex;
+    justify-content: space-evenly;
+    
 }
