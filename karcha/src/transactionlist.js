@@ -1,4 +1,6 @@
+
 export function Transactionlist ({tran}){
+
     return(
     <>
     <table className="table">
